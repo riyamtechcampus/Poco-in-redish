@@ -1,0 +1,110 @@
+.navbar {
+    margin-bottom: 0;
+  a {
+      color: set-text-color($main-color) !important;
+      .fa {
+          font-size: 20px;
+      }
+  }
+}
+
+.showcase {
+    background-image: url('../images/design.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding: 30px 0;
+    .container {
+        background-color: $main-color;
+        opacity: 0.5;
+        color: #fff;
+        padding: 20px 30px;
+        border-radius: 12px;
+        margin-top: 30px;
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            background-color: #fff;
+            color: $main-color;
+            border: 0;
+        
+        }
+        a:hover {
+            background-color: $main-color;
+            color: #fff;
+            border: .5px solid #fff;
+        }
+    }
+    
+}
+
+
+.section-a {
+    padding: 30px 0;
+    text-align: center;
+    background-color: $main-color;
+    border-radius: 12px;
+    color: set-text-color($main-color);
+    .fa {
+        font-size: $icon-size;
+    }
+}
+
+
+.section-b {
+    padding: 30px 0;
+
+    img {
+        width: 100%;
+    }
+}
+
+ .card-header {
+     background-color: $main-color;
+     color:#fff;
+     border-radius: 10px;
+
+     button {
+         color: #fff;
+     }
+     button:hover {
+        color: #fff;
+        text-decoration: none;
+     }
+ }
+
+
+ .section-c {
+     padding: 50px 0;
+     text-align: center;
+     background-color: $main-color;
+     color: #fff;
+     border-radius: 20px;
+
+     .btn-primary {
+         background: darken($main-color, 10%);
+     }
+
+    }
+
+    footer {
+        padding: 30px 0;
+        background-color: #eee;
+        text-align: center;
+
+        p {
+            font-size: 1.7rem;
+            color: $main-color;
+            font-weight: 600;
+            background-color: $main-color;
+            color: #fff;
+            margin-right: 400px;
+            margin-left: 400px;
+            border-radius: 4px;
+        }
+       
+    }
